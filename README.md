@@ -1,4 +1,4 @@
-# Processo Zumbi 001# :zombie:
+# Processo Zumbi :zombie:
 
 ## O que é?
 Um processo zumbi acontece em sistemas operacionais Unix quando um processo já concluido mas ainda se encontra na tabela de processos do sistema. Isso ocorre quando um processo pai não lê a chamada de saída do processo filho. Neste exercício um processo zumbi é criado a partir de um programa em C um processo filho com fork() que acaba se tornando um processo zumbi que fica no sistema por 10 segundos. 
